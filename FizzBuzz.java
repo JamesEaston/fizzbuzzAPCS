@@ -8,7 +8,12 @@ class FizzBuzz {
   for a number, n
   */
   public static String fizzNumber(int n) {
-    return "vjhy";
+    if (n == 1) {
+      return "1";
+    }
+    else {return "fizzbuzz";
+  }
+    
   }
   /*fizzList(int start, int end)
   Creates a string containing
