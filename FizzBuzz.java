@@ -7,7 +7,9 @@ class FizzBuzz {
   Computes the proper fizzbuzz output
   for a number, n
   */
-
+  public static String fizzNumber(int n) {
+    return "vjhy";
+  }
   /*fizzList(int start, int end)
   Creates a string containing
   a list of all fizzbuzz outputs starting with

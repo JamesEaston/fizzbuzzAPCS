@@ -5,7 +5,12 @@ class FizzBuzzTest {
   //A program to test the functionality of our FizzBuzz class
   public static void fizzNumberTest() {
   	//n = 0
-
+    if (FizzBuzz.fizzNumber(0).equals("fizzbuzz")) {
+      System.out.println("Success: 0=> fizzbuzz");
+    }
+    else {
+      System.out.println("Test Failed, n=0.");
+    }
   	//n = 1
 
   	//n = 3
@@ -38,6 +43,7 @@ class FizzBuzzTest {
   
   public static void main(String[] args) {
     //Program logic goes herels
+    fizzNumberTest();
 
   }
 }
